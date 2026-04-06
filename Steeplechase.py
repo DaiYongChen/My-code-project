@@ -1,19 +1,15 @@
 """
 File: Steeplechase.py
-Name: TODO:
----------------------------------
-TODO:
+Name: TODO:戴詠晨
 """
 
 from karel.stanfordkarel import *
-
 
 def main():
     """
     Karel crosses hurdles in a 12x12 world
     with a for loop 
     """
-
     for i in range(11):
         # east
         if front_is_clear():
